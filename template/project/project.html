@@ -1,0 +1,12 @@
+<ul class="box-warp">
+    <li ng-repeat="list in project" class="transition">
+        <a ng-href="{{list.href}}">
+            <div class="img-box">
+                <img src="{{list.url}}">
+            </div>
+            <div class="content-box">
+                {{list.title}}
+            </div>
+        </a>
+    </li>
+</ul>
